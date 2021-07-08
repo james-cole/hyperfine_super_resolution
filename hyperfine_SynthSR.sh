@@ -34,4 +34,5 @@ sed -e "s@T1_FILE@"${t1_1mm}"@" -e "s@T2_FILE@"${t2_1mm}"@" -e "s@OUTPUT_FILE@"$
 runipy ${dir}/SynthSR/tmp_SynthSR.ipynb
 ## correct origin of t1_SR
 python3 /data/Scripts/correct_origin.py --t1 ${dir}/SynthSR/t1_SR.nii.gz
+echo "finished ${dir}"
 
